@@ -1,0 +1,42 @@
+body {
+  background: url("https://user-images.githubusercontent.com/22690563/67150939-14a0b180-f2c7-11e9-8016-a993a397e1c5.jpg") no-repeat center center / cover;
+}
+
+.card_body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.player_card {
+  position: relative;
+  width: 300px;
+  height: 485px;
+  background-image: url(https://selimdoyranli.com/cdn/fut-player-card/img/card_bg.png);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 3.8rem 0;
+  z-index: 3;
+  transition: 200ms ease-in;
+}
+
+.design {
+  color: #e9cc74;
+}
+
+div span {
+  color: goldenrod;
+  margin-left: 20px;
+}
+
+.card {
+  background-color: transparent !important; 
+  border: 0px transparent solid !important;
+}
+
+
